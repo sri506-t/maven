@@ -31,13 +31,13 @@ INSTALL MAVEN ON REDHAT LINUX :
 17) mvn package
 18) tree
 
-wget https://dlcdn.apache.org/tomcat/tomcat-9/v9.0.63/bin/apache-tomcat-9.0.63.tar.gz
-tar zxf  apache-tomcat-9.0.63.tar.gz
-cd apache-tomcat-9.0.63
+wget https://dlcdn.apache.org/tomcat/tomcat-9/v9.0.68/bin/apache-tomcat-9.0.68.tar.gz
+tar zxf  apache-tomcat-9.0.68.tar.gz
+cd apache-tomcat-9.0.68
 cd bin
 ./startup.sh
 
-cp petclinic.war /opt/apache-tomcat-9.0.63/webapps/
+cp petclinic.war /opt/apache-tomcat-9.0.68/webapps/
 
 ==============================================================
 working with real project
@@ -50,4 +50,4 @@ working with real project
 6) mvn test
 7)
 
-https://dlcdn.apache.org/tomcat/tomcat-9/v9.0.63/bin/apache-tomcat-9.0.63.tar.gz
+https://dlcdn.apache.org/tomcat/tomcat-9/v9.0.68/bin/apache-tomcat-9.0.68.tar.gz
